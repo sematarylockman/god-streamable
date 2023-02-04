@@ -1,0 +1,64 @@
+```— // source code created by haunts
+
+— // setclipboard(".gg/hauntsop")
+
+— // notification
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+
+— // notification 
+NotifyLib.prompt('injected haunts streamable', 'successfully finished injecting haunts streamable', 2)
+
+— // notification to
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+
+— // notification NotifyLib.prompt('Haunts Streamable - Fov is 30 or higher', 'blatant config', 5)
+
+— // notification 
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+
+— // notification NotifyLib.prompt('join haunts vault discord.gg/hauntsop', 'best free vault <3', 5)
+
+-- // discord
+local json = {
+    ["cmd"] = "INVITE_BROWSER",
+    ["args"] = {
+        ["code"] = "hauntsop"
+    },
+    ["nonce"] = 'a'
+}
+spawn(function()
+    if syn then
+        local rich = syn.request({
+            Url = 'http://127.0.0.1:6463/rpc?v=1',
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json',
+                ['Origin'] = 'https://discord.com'
+            },
+            Body = game:GetService('HttpService'):JSONEncode(json)
+        }).Body
+    elseif request then
+        local poor = request({
+            Url = 'http://127.0.0.1:6463/rpc?v=1',
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json',
+                ['Origin'] = 'https://discord.com'
+            },
+            Body = game:GetService('HttpService'):JSONEncode(json)
+        }).Body
+    elseif http_request then
+        local poor2 = http_request({
+            Url = 'http://127.0.0.1:6463/rpc?v=1',
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json',
+                ['Origin'] = 'https://discord.com'
+            },
+            Body = game:GetService('HttpService'):JSONEncode(json)
+        }).Body
+    end
+end)
+
+-- // streamable
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sematarylockman/best-streamable/main/haunts%20silent))()
