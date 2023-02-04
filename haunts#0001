@@ -18,7 +18,7 @@ local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKh
 
 -— // notification NotifyLib.prompt('join haunts vault discord.gg/hauntsop', 'best free vault <3', 5)
 
---- // discord
+-- // discord
 local json = {
     ["cmd"] = "INVITE_BROWSER",
     ["args"] = {
