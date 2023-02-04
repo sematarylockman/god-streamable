@@ -1,24 +1,24 @@
-```— // source code created by haunts
+-- // source code created by haunts
 
-— // setclipboard(".gg/hauntsop")
+—- // setclipboard(".gg/hauntsop")
 
-— // notification
+—- // notification
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
 
-— // notification 
+—- // notification 
 NotifyLib.prompt('injected haunts streamable', 'successfully finished injecting haunts streamable', 2)
 
-— // notification to
+—- // notification to
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
 
-— // notification NotifyLib.prompt('Haunts Streamable - Fov is 30 or higher', 'blatant config', 5)
+—- // notification NotifyLib.prompt('Haunts Streamable - Fov is 30 or higher', 'blatant config', 5)
 
-— // notification 
+—- // notification 
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
 
-— // notification NotifyLib.prompt('join haunts vault discord.gg/hauntsop', 'best free vault <3', 5)
+-— // notification NotifyLib.prompt('join haunts vault discord.gg/hauntsop', 'best free vault <3', 5)
 
--- // discord
+--- // discord
 local json = {
     ["cmd"] = "INVITE_BROWSER",
     ["args"] = {
